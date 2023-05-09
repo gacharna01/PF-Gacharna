@@ -1,0 +1,421 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color:FDE4CF;
+}
+h2{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    color: rgb(185, 119, 129);
+
+}
+.logo img{
+    width: 15%;
+    height: 30%;
+    
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    background-color:#f0e0ed;
+    width: 100%;
+}
+#btn-menu{
+    display: none;
+}
+header a{
+    text-decoration: none;
+}
+header label{
+    display: none;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+header label:hover{
+    cursor: pointer;
+    background: rgba(0,0 , 0, 0.2);
+}
+
+header .menu {
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+    padding: 30px;
+}
+
+.menu li a{
+    color:#7D4961;
+}   
+.menu li:hover{
+    background: rgba(230, 171, 171, 0.3);
+    border-radius: 10px;
+}
+.menu ul li{
+    padding: 10px 20px;
+    font-family: "Poppins", sans-serif;
+}
+.items-buscador-compra{
+    display: flex;
+}
+
+.menu .bolsa img{
+    width: 30px;
+    height: 30px;
+    filter: brightness(0) saturate(100%) invert(94%) sepia(92%) saturate(1790%) hue-rotate(282deg) brightness(81%) contrast(94%);
+}
+
+
+h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+}
+
+
+
+
+/* Productos destacados */
+#ProductosDestacado{
+    margin: 10px;
+
+}
+.parrafo-productos-destacados{
+    color: #7D4961;
+
+}
+.contenedor-productos{
+    display: flex;
+    flex-direction: row;
+}
+.ProductosDestacados img{
+    width: 300px;
+    height: 300px;
+    border-radius: 25px;
+    margin: 50px;
+
+}
+
+.ProductosDestacados p{
+    padding: 50px;
+
+}
+
+/* Acerca de nosotros */
+main .primer-parrafo{
+    margin: 100px;
+    
+}
+.contenedor-acercadenosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+}
+.contenedor-acercadenosotros p{
+    margin: 80px 100px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-acercadenosotros img{
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    margin: 80px 200px;
+
+}
+
+
+
+
+/* Catálogo */
+
+.contenedor-catalogo{
+    margin: 20px 60px;
+    
+}
+.contenedor-catalogo img{
+    width: 280px;
+    height: 280px;
+    border-radius: 25px;
+    margin: 30px 60px;
+}
+.mostrador .fila{
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.mostrador .fila .item{
+    text-align: center;
+}
+
+.btn-comprar{
+    background-color: lightpink;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    margin: 40px;
+}
+
+/* Personalizado */
+
+.contenedor-personalizado img{
+    width: 350px;
+    height: 350px;
+    border-radius: 25px;
+    margin: 50px 80px;
+    display: block;
+
+}
+/* Contacto */
+
+form{
+    
+    width: 500px;
+    margin: 50px auto;
+    background: rgb(185, 119, 129, 0.4);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton-enviar{
+    background-color: lightpink;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+
+/* Boton WhastApp */
+.contenedor-botonwh{
+    position:fixed;
+    z-index: 3000;
+    bottom: 20px;
+    right: 25px;
+    padding: 25 px;
+    transition: ease 0.3s;
+}
+.contenedor-botonwh:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+.botonwh{
+    width: 60px;
+    height: 60px;
+}
+
+/* Boton Instagram */
+.contenedor-insta{
+    display: flex;
+    justify-content: right;
+    
+}
+.botoninsta{
+    width: 30px;
+    height: 30px;
+}
+/* Boton Ayuda */
+.contenedor-ayuda{
+    display: flex;
+    
+    
+}
+/* Footer */
+footer{
+    background-color: lightgoldenrodyellow;
+}
+
+.pie-pagina .grupo-1{
+    max-width: 1200px;
+    padding: 50px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 250px;
+}
+.pie-pagina h3{
+    font-size: 15px;
+    color: #7D4961;
+}
+.box p{
+    font-size: 14px;
+}
+.pie-pagina .grupo-2{
+    text-align: center;
+    padding: 50px;
+}
+.pie-pagina .grupo-2 img{
+    width: 35px;
+    height: 35px;
+}
+.pie-pagina .grupo-3{
+    background-color: rgb(240, 231, 231);
+    text-align: center;
+    font-size: 12px;
+    padding: 30px;
+    margin: 0px;
+}
+.pie-pagina .volver-arriba{
+    margin: 35px;
+    
+    
+}
+
+
+/* Responsive Mobile Todo el CSS */
+/*HEADER*/
+@media (max-width:576px){
+    .logo img{
+        width: 20%;
+        height: 30%;
+        
+    }
+    h2{
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+    }
+    header label{
+        display: block;
+    }
+    .menu{
+        position: absolute;
+        background-color: lightgoldenrodyellow;
+        width: 70%;
+        margin-left: -70%;
+        transition: all 0.5s;
+    }
+    .menu ul{
+        flex-direction: column;
+    }
+    .menu li{
+        border-top: #7D4961;
+    }
+    #btn-menu:checked ~ .menu{
+        margin: 0;
+    }
+    
+    /*boton WA*/
+    .contenedor-botonwh{
+        position:fixed;
+        z-index: 3000;
+        bottom: 1300px;
+        left: 300px;
+        
+        
+    }
+    .botonwh{
+        width: 50px;
+        height: 50px;
+    }
+
+}
+
+/*MAIN*/
+/*Contacto*/
+@media (max-width:576px){
+    form{
+        width: 70%;
+    }
+/* Acerca de nosotros */
+
+}
+
+@media (max-width:576px) {
+    main .primer-parrafo {
+    margin: 30px;
+    }
+    .contenedor-acercadenosotros {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+    .contenedor-acercadenosotros p {
+    margin: 20px;
+    text-align: center;
+    }
+    .contenedor-acercadenosotros img {
+    width: 80%;
+    height: 350px;
+    border-radius: 10px;
+    margin: 20px;
+    }
+}
+
+/* Catálogo */
+@media (max-width:576px) {
+    .contenedor-catalogo{
+        margin: 20px 60px;
+        
+    }
+    .contenedor-catalogo img{
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        margin: 30px 30px;
+        
+    }
+    .mostrador .fila{
+        flex-wrap: wrap;
+    }
+    .mostrador .fila .item{
+        text-align: center;
+    }
+
+    .btn-comprar{
+        padding: 12px 25px;
+        border-radius: 8px;
+        margin: 40px;
+    }
+}   
+
+/*FOOTER*/
+@media screen  and (max-width:576px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 35px;
+    }
+}
+@media screen  and (max-width:576px){
+    .pie-pagina .grupo-2{
+        width: 50%;
+    }
+}
+@media screen  and (max-width:576px){
+    .pie-pagina .grupo-3{
+        width: 100%;
+    }
+}
+
