@@ -91,20 +91,20 @@ h2{
 
 /* Productos destacados */
 #ProductosDestacado{
-    margin: 10px;
+    margin: 0;
 
 }
 .parrafo-productos-destacados{
     color: #7D4961;
 
 }
-.contenedor-productos{
-    display: flex;
-    flex-direction: row;
+#carouselExampleIndicators {
+    width: 95%;
+    
+    
 }
 .ProductosDestacados img{
-    width: 300px;
-    height: 300px;
+    height: 500px;
     border-radius: 25px;
     margin: 50px;
 
@@ -175,13 +175,17 @@ main .primer-parrafo{
 
 /* Personalizado */
 
-.contenedor-personalizado img{
+.container img{
     width: 350px;
     height: 350px;
     border-radius: 25px;
     margin: 50px 80px;
     display: block;
 
+}
+.container .col{
+    text-align: center;
+    
 }
 /* Contacto */
 
@@ -398,7 +402,25 @@ footer{
         border-radius: 8px;
         margin: 40px;
     }
-}   
+} 
+/* Personalizado */
+
+@media (max-width:576px) {
+
+    .container img{
+        width: 80%;
+        height: 50%;
+        border-radius: 7px;
+        margin: 30px 30px;
+        
+
+    }
+    .container .col{
+        text-align: center;
+        font-size: smaller;
+        
+    }  
+}
 
 /*FOOTER*/
 @media screen  and (max-width:576px){
