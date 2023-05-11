@@ -280,14 +280,14 @@ footer{
     padding: 50px;
 }
 .pie-pagina .grupo-2 a{
-    display: block;
-    text-align: left;
     color: #7D4961;
+    display: flex;
 }
 .pie-pagina .grupo-2 img{
     width: 35px;
     height: 35px;
 }
+
 .pie-pagina .grupo-3{
     background-color: rgb(240, 231, 231);
     text-align: center;
@@ -297,7 +297,7 @@ footer{
 }
 .pie-pagina .volver-arriba{
     margin: 35px;
-    
+    text-align: left;
     
 }
 
@@ -449,7 +449,14 @@ footer{
 @media screen  and (max-width:576px){
     .pie-pagina .grupo-2{
         width: 150%;
+        display: flex;
+        text-align: center;
+        padding: 0px;
+
     }
+    .pie-pagina .grupo-2 img{
+    
+}
 }
 @media screen  and (max-width:576px){
     .pie-pagina .grupo-3{
