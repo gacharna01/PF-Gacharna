@@ -276,14 +276,12 @@ footer{
     font-size: 14px;
 }
 .pie-pagina .grupo-2{
-    text-align: center;
-    padding: 50px;
-}
-.pie-pagina .grupo-2 a{
-    color: #7D4961;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pie-pagina .grupo-2 img{
+    margin: 10px;
     width: 35px;
     height: 35px;
 }
@@ -298,7 +296,7 @@ footer{
 .pie-pagina .volver-arriba{
     margin: 35px;
     text-align: left;
-    
+    color: #7D4961;
 }
 
 
@@ -454,9 +452,9 @@ footer{
         padding: 0px;
 
     }
-    .pie-pagina .grupo-2 img{
-    
-}
+    .pie-pagina .grupo-2{
+        width: auto;
+    }
 }
 @media screen  and (max-width:576px){
     .pie-pagina .grupo-3{
