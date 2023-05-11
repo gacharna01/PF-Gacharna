@@ -425,16 +425,16 @@ footer{
     }  
 }
 /*Boton WA*/
-@media (max-width:576px){
-.contenedor-botonwh{
-    position:fixed;
-    z-index: 3000;
-    bottom: 10px;
-    right: 10px;
-}
-.botonwh{
-    width: 50px;
-    height: 50px;
+@media screen and (max-width:576px){
+    .contenedor-botonwh{
+        position:fixed;
+        z-index: 3000;
+        bottom: 680px;
+        left: 300px;
+    }
+    .botonwh{
+        width: 50px;
+        height: 50px;
 }
 }
 
@@ -454,13 +454,8 @@ footer{
 @media screen  and (max-width:576px){
     .pie-pagina .grupo-3{
         width: 100%;
-    }
-    .pie-pagina .grupo-3 p{
-    background-color: rgb(240, 231, 231);
-    text-align: center;
-    font-size: 12px;
-    padding: 30px 10px;
-    margin: 200px 50px;
+        height: 40%;   
     }
 }
+
 
