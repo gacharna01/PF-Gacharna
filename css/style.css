@@ -424,7 +424,7 @@ footer{
         position:fixed;
         z-index: 3000;
         margin: -400px 0px;
-        bottom: 680px;
+        bottom: 80%;
         left: 300px;
     }
     .botonwh{
