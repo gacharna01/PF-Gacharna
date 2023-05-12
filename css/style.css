@@ -423,7 +423,7 @@ footer{
     .contenedor-botonwh{
         position:fixed;
         z-index: 3000;
-        margin: -300px 0px;
+        margin: -400px 0px;
         bottom: 680px;
         left: 300px;
     }
