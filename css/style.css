@@ -343,6 +343,16 @@ footer{
 }
 
 /*MAIN*/
+
+/*Productos destacados Index*/
+@media (max-width:576px){
+    .ProductosDestacados img{
+        width: 75%;
+        height: 300px;
+        border-radius: 20px;
+        
+    }
+}
 /*Contacto*/
 @media (max-width:576px){
     form{
