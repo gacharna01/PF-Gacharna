@@ -96,14 +96,9 @@ h2{
 }
 .parrafo-productos-destacados{
     color: #7D4961;
-
-}
-#carouselExampleIndicators {
-    width: 95%;
-    
-    
 }
 .ProductosDestacados img{
+    width: 92%;
     height: 500px;
     border-radius: 25px;
     margin: 50px;
@@ -427,6 +422,7 @@ footer{
     .contenedor-botonwh{
         position:fixed;
         z-index: 3000;
+        margin: -565px 0px;
         bottom: 680px;
         left: 300px;
     }
