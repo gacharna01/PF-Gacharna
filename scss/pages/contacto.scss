@@ -1,0 +1,37 @@
+
+form{
+    
+    width: 500px;
+    margin: 50px auto;
+    background: rgb(185, 119, 129, 0.4);
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+#boton-enviar{
+    background-color: lightpink;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+@media (max-width:576px){
+    form{
+        width: 70%;
+    }
+}

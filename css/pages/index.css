@@ -1,0 +1,27 @@
+#ProductosDestacado {
+  margin: 0;
+}
+
+.parrafo-productos-destacados {
+  color: #7D4961;
+}
+
+.ProductosDestacados img {
+  width: 92%;
+  height: 500px;
+  border-radius: 25px;
+  margin: 50px;
+}
+.ProductosDestacados p {
+  padding: 50px;
+}
+
+@media (max-width: 576px) {
+  .ProductosDestacados img {
+    width: 75%;
+    height: 300px;
+    border-radius: 20px;
+  }
+}
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,52 @@
+
+/* Boton WhastApp */
+.contenedor-botonwh{
+    position:fixed;
+    z-index: 3000;
+    bottom: 20px;
+    right: 25px;
+    padding: 25 px;
+    transition: ease 0.3s;
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.3s;
+        }
+}
+
+.botonwh{
+    width: 60px;
+    height: 60px;
+}
+
+
+/* Boton Instagram */
+.contenedor-insta{
+    display: flex;
+    justify-content: right;
+    
+}
+.botoninsta{
+    width: 30px;
+    height: 30px;
+}
+/* Boton Ayuda */
+.contenedor-ayuda{
+    display: flex;
+    
+    
+}
+
+/*Boton WA*/
+@media screen and (max-width:576px){
+    .contenedor-botonwh{
+        position:fixed;
+        z-index: 3000;
+        margin: -400px 0px;
+        bottom: 80%;
+        left: 300px;
+    }
+    .botonwh{
+        width: 50px;
+        height: 50px;
+}
+}
