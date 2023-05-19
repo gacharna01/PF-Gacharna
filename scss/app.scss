@@ -1,0 +1,22 @@
+// Basics 
+@import './basics/colors';
+@import './basics/typography';
+
+//Components
+@import './components/buttons';
+
+
+//layout
+@import './layout/footer';
+@import './layout/header';
+@import './layout/main';
+
+//pages
+@import './pages/index';
+@import './pages/acercadenosotros';
+@import './pages/catalogo';
+@import './pages/personalizado';
+@import './pages/contacto';
+
+
+
