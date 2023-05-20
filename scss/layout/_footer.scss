@@ -10,6 +10,11 @@ footer{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     column-gap: 250px;
+    @include mediaquery-mobile(){
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 35px;
+    }
 }
 .pie-pagina h3{
     font-size: 15px;
@@ -28,6 +33,12 @@ footer{
             width: 35px;
             height: 35px;
         }
+    @include mediaquery-mobile(){
+        width: 150%;
+        display: flex;
+        text-align: center;
+        padding: 0px;
+    }
 }
 
 
@@ -37,6 +48,10 @@ footer{
     font-size: 12px;
     padding: 30px;
     margin: 0px;
+    @include mediaquery-mobile(){
+        width: 100%;
+        height: 40%;   
+    }
 }
 .pie-pagina .volver-arriba{
     margin: 35px;
@@ -44,31 +59,5 @@ footer{
     color: #7D4961;
 }
 
-
-@media screen  and (max-width:576px){
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        padding: 35px;
-    }
-}
-@media screen  and (max-width:576px){
-    .pie-pagina .grupo-2{
-        width: 150%;
-        display: flex;
-        text-align: center;
-        padding: 0px;
-
-    }
-    .pie-pagina .grupo-2{
-        width: auto;
-    }
-}
-@media screen  and (max-width:576px){
-    .pie-pagina .grupo-3{
-        width: 100%;
-        height: 40%;   
-    }
-}
 
 

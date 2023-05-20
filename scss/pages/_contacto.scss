@@ -6,6 +6,9 @@ form{
     background: rgb(185, 119, 129, 0.4);
     padding: 30px 20px;
     border-radius: 10px;
+    @include mediaquery-mobile(){
+        width: 70%;
+    }
 }
 
 input, textarea{
@@ -30,8 +33,3 @@ textarea{
     
 }
 
-@media (max-width:576px){
-    form{
-        width: 70%;
-    }
-}

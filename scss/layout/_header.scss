@@ -15,12 +15,20 @@ h2{
     text-align: center;
     padding: 20px;
     font-size: 50px;
+    @include mediaquery-mobile(){
+        text-align: center;
+        padding: 20px;
+        font-size: 30px;
+    }
 }
 
 .logo img{
     width: 15%;
     height: 30%;
-    
+        @include mediaquery-mobile(){
+            width: 20%;
+            height: 30%;
+        }
 }
 .logo{
     display: flex;
@@ -37,12 +45,22 @@ header{
         width: 30px;
         height: 30px;
         padding: 10px;
+            @include mediaquery-mobile(){
+                display: block;
+        }
     }
     .menu {
         background-color: lightgoldenrodyellow;
         display: flex;
         justify-content: center;
         align-items: center;
+            @include mediaquery-mobile(){
+                position: absolute;
+                background-color: lightgoldenrodyellow;
+                width: 70%;
+                margin-left: -70%;
+                transition: all 0.5s;
+        }
         }
         &:label:hover{
             cursor: pointer;
@@ -55,6 +73,9 @@ header{
                 flex-direction: row;
                 margin: 30px;
                 padding: 30px;
+                @include mediaquery-mobile(){
+                    flex-direction: column;
+                }
             }
             li{
                 a{
@@ -63,6 +84,9 @@ header{
                 &:hover{
                     background: rgba(230, 171, 171, 0.3);
                     border-radius: 10px;
+                }
+                @include mediaquery-mobile(){
+                    border-top: #7D4961;
                 }
             }
             ul li{
@@ -89,40 +113,12 @@ header{
 }
 
 
-
-/* Responsive Mobile Todo el CSS */
-/*HEADER*/
 @media (max-width:576px){
-    .logo img{
-        width: 20%;
-        height: 30%;
-        
-    }
-    h2{
-        text-align: center;
-        padding: 20px;
-        font-size: 30px;
-    }
-    header label{
-        display: block;
-    }
-    .menu{
-        position: absolute;
-        background-color: lightgoldenrodyellow;
-        width: 70%;
-        margin-left: -70%;
-        transition: all 0.5s;
-    }
-    .menu ul{
-        flex-direction: column;
-    }
-    .menu li{
-        border-top: #7D4961;
-    }
     #btn-menu:checked ~ .menu{
         margin: 0;
     }
 }
+
     
 
 
