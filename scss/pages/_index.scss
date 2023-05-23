@@ -22,3 +22,20 @@
         }
 }
 
+
+ul{
+    list-style: none;
+}
+@each $producto in arete, collar, pulsera {
+    #producto-#{$producto} {
+        background-image: url(../imagenes/productos-principales/#{$producto}.jpeg);
+        display: flex;
+        width: 300px;
+        height: 300px;
+        margin: 30px;
+        border-radius: 25px;
+    }
+}
+
+
+

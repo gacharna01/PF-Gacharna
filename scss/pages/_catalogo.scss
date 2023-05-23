@@ -41,7 +41,12 @@
     color: white;
     padding: 12px 25px;
     border-radius: 8px;
+    border-color: rgb(202, 175, 175);
     margin: 40px;
+    &:hover{
+        background-color: lightcoral;
+
+    }
     @include mediaquery-mobile(){
         padding: 12px 25px;
         border-radius: 8px;

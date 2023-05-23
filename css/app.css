@@ -270,6 +270,37 @@ header nav .bolsa img {
   padding: 50px;
 }
 
+ul {
+  list-style: none;
+}
+
+#producto-arete {
+  background-image: url(../imagenes/productos-principales/arete.jpeg);
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  border-radius: 25px;
+}
+
+#producto-collar {
+  background-image: url(../imagenes/productos-principales/collar.jpeg);
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  border-radius: 25px;
+}
+
+#producto-pulsera {
+  background-image: url(../imagenes/productos-principales/pulsera.jpeg);
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  border-radius: 25px;
+}
+
 main .primer-parrafo {
   margin: 100px;
 }
@@ -363,7 +394,11 @@ main .primer-parrafo {
   color: white;
   padding: 12px 25px;
   border-radius: 8px;
+  border-color: rgb(202, 175, 175);
   margin: 40px;
+}
+.btn-comprar:hover {
+  background-color: lightcoral;
 }
 @media (max-width: 576px) {
   .btn-comprar {
