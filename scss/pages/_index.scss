@@ -28,9 +28,12 @@ ul{
     display: flex;
     justify-content: center;
 }
+
 @each $producto in arete, collar, pulsera {
     #producto-#{$producto} {
         background-image: url(../imagenes/productos-principales/#{$producto}.jpeg);
+        background-position: center;
+        background-size: 300px;
         display: block;
         width: 300px;
         height: 300px;
