@@ -23,10 +23,16 @@
 }
 
 
+
 ul{
     list-style: none;
     display: flex;
     justify-content: center;
+    @include mediaquery-mobile(){
+        display: block; 
+        padding: 1px;
+    }
+    
 }
 
 @each $producto in arete, collar, pulsera {
@@ -42,5 +48,17 @@ ul{
     }
 }
 
+.itemprincipales{
+    text-align: center;
+    @include mediaquery-mobile(){
+        text-align: center;
+    }
+}
 
-
+.volver-arriba{
+    background-color: pink;
+    border-radius: 5px;
+    &:hover{
+        background-color: lightcoral;
+    }
+}

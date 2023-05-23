@@ -275,6 +275,12 @@ ul {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 576px) {
+  ul {
+    display: block;
+    padding: 1px;
+  }
+}
 
 #producto-arete {
   background-image: url(../imagenes/productos-principales/arete.jpeg);
@@ -307,6 +313,23 @@ ul {
   height: 300px;
   margin: 50px;
   border-radius: 25px;
+}
+
+.itemprincipales {
+  text-align: center;
+}
+@media (max-width: 576px) {
+  .itemprincipales {
+    text-align: center;
+  }
+}
+
+.volver-arriba {
+  background-color: pink;
+  border-radius: 5px;
+}
+.volver-arriba:hover {
+  background-color: lightcoral;
 }
 
 main .primer-parrafo {
