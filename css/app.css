@@ -146,13 +146,14 @@ h2 {
 }
 
 .logo img {
-  width: 15%;
-  height: 30%;
+  width: 150px;
+  height: 150px;
 }
 @media (max-width: 576px) {
   .logo img {
-    width: 20%;
-    height: 30%;
+    margin-top: 20px;
+    width: 100px;
+    height: 100px;
   }
 }
 
