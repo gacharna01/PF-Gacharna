@@ -324,6 +324,12 @@ ul {
   }
 }
 
+.btn-comprar {
+  font-size: 12px;
+  padding: 4px 8px;
+  width: auto;
+}
+
 .volver-arriba {
   background-color: pink;
   border-radius: 5px;
