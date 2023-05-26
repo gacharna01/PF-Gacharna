@@ -548,6 +548,12 @@ textarea {
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
+@media (max-width: 576px) {
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+}
 
 @keyframes cambiarcolor {
   0% {

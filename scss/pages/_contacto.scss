@@ -44,6 +44,11 @@ textarea{
     animation-name: cambiarcolor;
     animation-duration: 3s;
     animation-iteration-count: infinite;
+
+    @include mediaquery-mobile(){
+        width: 80px;
+        height: 80px;
+}
 }
 
 @keyframes cambiarcolor{
