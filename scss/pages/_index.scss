@@ -50,8 +50,12 @@ ul{
 
 h3{
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 400;
+    font-size: 40px;
     color: rgb(185, 119, 129);
+    text-align: center;
+    @include mediaquery-mobile(){
+        font-size: 30px;
+}
 }
 
 .itemprincipales{

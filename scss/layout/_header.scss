@@ -117,6 +117,7 @@ header{
 @media (max-width:576px){
     #btn-menu:checked ~ .menu{
         margin: 0;
+        z-index: 3000;
     }
 }
 

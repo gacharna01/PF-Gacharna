@@ -89,7 +89,7 @@ footer {
 }
 @media (max-width: 576px) {
   .pie-pagina .grupo-2 {
-    width: 150%;
+    width: 100%;
     display: flex;
     text-align: center;
     padding: 0px;
@@ -244,6 +244,7 @@ header nav .bolsa img {
 @media (max-width: 576px) {
   #btn-menu:checked ~ .menu {
     margin: 0;
+    z-index: 3000;
   }
 }
 #ProductosDestacado {
@@ -318,8 +319,14 @@ ul {
 
 h3 {
   font-family: "Cormorant Garamond", serif;
-  font-weight: 400;
+  font-size: 40px;
   color: rgb(185, 119, 129);
+  text-align: center;
+}
+@media (max-width: 576px) {
+  h3 {
+    font-size: 30px;
+  }
 }
 
 .itemprincipales {
@@ -346,6 +353,7 @@ h3 {
 }
 
 main .primer-parrafo {
+  color: rgb(185, 119, 129);
   margin: 100px;
 }
 @media (max-width: 576px) {
@@ -366,6 +374,7 @@ main .primer-parrafo {
   }
 }
 .contenedor-acercadenosotros p {
+  color: rgb(185, 119, 129);
   margin: 80px 100px;
   display: flex;
   justify-content: center;
@@ -452,6 +461,15 @@ main .primer-parrafo {
   }
 }
 
+div .col {
+  color: #b97781;
+}
+@media (max-width: 576px) {
+  div .col {
+    font-size: 14px;
+  }
+}
+
 .container img {
   width: 350px;
   height: 350px;
@@ -459,10 +477,6 @@ main .primer-parrafo {
   margin: 50px 80px;
   display: block;
 }
-.container img .col {
-  text-align: center;
-}
-
 @media (max-width: 576px) {
   .container img {
     width: 80%;
@@ -470,11 +484,8 @@ main .primer-parrafo {
     border-radius: 7px;
     margin: 30px 30px;
   }
-  .container img .col {
-    text-align: center;
-    font-size: smaller;
-  }
 }
+
 form {
   width: 500px;
   margin: 50px auto;

@@ -34,7 +34,7 @@ footer{
             height: 35px;
         }
     @include mediaquery-mobile(){
-        width: 150%;
+        width: 100%;
         display: flex;
         text-align: center;
         padding: 0px;

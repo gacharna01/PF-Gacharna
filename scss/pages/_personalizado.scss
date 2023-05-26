@@ -1,3 +1,11 @@
+div .col{
+    color: #b97781;
+    @include mediaquery-mobile(){
+        font-size: 14px;
+    }
+    
+    
+}
 
 .container img{
     width: 350px;
@@ -5,26 +13,10 @@
     border-radius: 25px;
     margin: 50px 80px;
     display: block;
-    .col{
-        text-align: center;
-        
-    }
-
-}
-
-
-@media (max-width:576px) {
-
-    .container img{
-        width: 80%;
-        height: 50%;
-        border-radius: 7px;
-        margin: 30px 30px;
-            .col{
-                text-align: center;
-                font-size: smaller;
-            }  
-        
-
-    }
-}
+    @include mediaquery-mobile(){
+            width: 80%;
+            height: 50%;
+            border-radius: 7px;
+            margin: 30px 30px;
+            }
+        }
