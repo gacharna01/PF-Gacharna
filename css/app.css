@@ -129,7 +129,7 @@ body {
 h2 {
   font-family: "Cormorant Garamond", serif;
   font-weight: 400;
-  color: rgb(185, 119, 129);
+  color: #B97781;
 }
 
 h2 {
@@ -421,6 +421,13 @@ main .primer-parrafo {
     border-radius: 15px;
     margin: 30px 30px;
   }
+}
+
+.item p {
+  color: #B97781;
+}
+.item span {
+  color: #B97781;
 }
 
 .mostrador .fila {
