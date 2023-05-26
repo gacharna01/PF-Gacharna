@@ -48,6 +48,12 @@ ul{
     }
 }
 
+h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    color: rgb(185, 119, 129);
+}
+
 .itemprincipales{
     text-align: center;
     @include mediaquery-mobile(){
