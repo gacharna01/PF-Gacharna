@@ -17,6 +17,8 @@ main .primer-parrafo{
     p{
         color: $color-texto;
         margin: 80px 100px;
+        padding: 40px;
+        text-align: justify;
         display: flex;
         justify-content: center;
         @include mediaquery-mobile(){
