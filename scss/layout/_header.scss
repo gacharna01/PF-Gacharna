@@ -3,13 +3,13 @@
     padding: 0;
 }
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: $tipografia-texto;
     background-color:$color-primario;
 }
 h2{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: $tipografia-titulos;
     font-weight: 400;
-    color: #B97781;
+    color: $color-titulos;
 }
 h2{
     text-align: center;
@@ -92,7 +92,7 @@ header{
             }
             ul li{
                 padding: 10px 20px;
-                font-family: "Poppins", sans-serif;
+                font-family: $tipografia-menu;
             }
             .bolsa img{
                 width: 30px;

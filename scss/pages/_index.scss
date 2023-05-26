@@ -35,6 +35,15 @@ ul{
     
 }
 
+.itemprincipales{
+    p{
+        color: $color-texto;
+    }
+    span{
+        color: $color-texto;
+    }
+} 
+
 @each $producto in arete, collar, pulsera {
     #producto-#{$producto} {
         background-image: url(../imagenes/productos-principales/#{$producto}.jpeg);
@@ -49,7 +58,7 @@ ul{
 }
 
 h3{
-    font-family: 'Cormorant Garamond', serif;
+    font-family: $tipografia-titulos;
     font-size: 40px;
     color: rgb(185, 119, 129);
     text-align: center;

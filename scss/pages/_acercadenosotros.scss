@@ -1,5 +1,5 @@
 main .primer-parrafo{
-    color: rgb(185, 119, 129);
+    color: $color-texto;
     margin: 100px;
     @include mediaquery-mobile(){
         margin: 30px;
@@ -15,7 +15,7 @@ main .primer-parrafo{
         align-items: center;
     }
     p{
-        color: rgb(185, 119, 129);
+        color: $color-texto;
         margin: 80px 100px;
         display: flex;
         justify-content: center;

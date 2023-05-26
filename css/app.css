@@ -284,6 +284,13 @@ ul {
   }
 }
 
+.itemprincipales p {
+  color: #7D4961;
+}
+.itemprincipales span {
+  color: #7D4961;
+}
+
 #producto-arete {
   background-image: url(../imagenes/productos-principales/arete.jpeg);
   background-position: center;
@@ -353,7 +360,7 @@ h3 {
 }
 
 main .primer-parrafo {
-  color: rgb(185, 119, 129);
+  color: #7D4961;
   margin: 100px;
 }
 @media (max-width: 576px) {
@@ -374,7 +381,7 @@ main .primer-parrafo {
   }
 }
 .contenedor-acercadenosotros p {
-  color: rgb(185, 119, 129);
+  color: #7D4961;
   margin: 80px 100px;
   display: flex;
   justify-content: center;
@@ -424,10 +431,10 @@ main .primer-parrafo {
 }
 
 .item p {
-  color: #B97781;
+  color: #7D4961;
 }
 .item span {
-  color: #B97781;
+  color: #7D4961;
 }
 
 .mostrador .fila {
@@ -469,7 +476,7 @@ main .primer-parrafo {
 }
 
 div .col {
-  color: #b97781;
+  color: #7D4961;
 }
 @media (max-width: 576px) {
   div .col {

@@ -1,5 +1,5 @@
 div .col{
-    color: #b97781;
+    color: $color-texto;
     @include mediaquery-mobile(){
         font-size: 14px;
     }
