@@ -1,4 +1,13 @@
-
+h1{
+    font-family: $tipografia-titulos;
+    color: $color-titulos;
+    font-size: 55px;
+    text-align: center;
+    margin: 30px;
+    @include mediaquery-mobile(){
+        font-size: 40px;
+}
+}
 .contenedor-catalogo{
     margin: 30px 78px;
     @include mediaquery-mobile(){

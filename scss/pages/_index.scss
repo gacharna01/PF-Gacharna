@@ -5,6 +5,16 @@
 .parrafo-productos-destacados{
     color: #7D4961;
 }
+h1{
+    font-family: $tipografia-titulos;
+    color: $color-titulos;
+    font-size: 55px;
+    text-align: center;
+    margin: 30px;
+    @include mediaquery-mobile(){
+        font-size: 40px;
+}
+}
 .ProductosDestacados{
     img{
         width: 92%;

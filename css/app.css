@@ -255,6 +255,19 @@ header nav .bolsa img {
   color: #7D4961;
 }
 
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  color: #B97781;
+  font-size: 55px;
+  text-align: center;
+  margin: 30px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
 .ProductosDestacados img {
   width: 92%;
   height: 500px;
@@ -359,6 +372,19 @@ h3 {
   background-color: lightcoral;
 }
 
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  color: #B97781;
+  font-size: 55px;
+  text-align: center;
+  margin: 30px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
 main .primer-parrafo {
   color: #7D4961;
   margin: 100px;
@@ -406,6 +432,19 @@ main .primer-parrafo {
     height: 350px;
     border-radius: 10px;
     margin: 20px;
+  }
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  color: #B97781;
+  font-size: 55px;
+  text-align: center;
+  margin: 30px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
   }
 }
 
@@ -477,6 +516,19 @@ main .primer-parrafo {
   }
 }
 
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  color: #B97781;
+  font-size: 55px;
+  text-align: center;
+  margin: 30px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+}
+
 div .col {
   color: #7D4961;
 }
@@ -499,6 +551,19 @@ div .col {
     height: 50%;
     border-radius: 7px;
     margin: 30px 30px;
+  }
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  color: #B97781;
+  font-size: 55px;
+  text-align: center;
+  margin: 30px;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
   }
 }
 
