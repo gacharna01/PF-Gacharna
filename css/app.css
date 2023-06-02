@@ -525,8 +525,18 @@ h1 {
 }
 @media (max-width: 576px) {
   h1 {
-    font-size: 20px;
+    font-size: 15px;
     text-align: center;
+  }
+}
+
+.container .col {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 576px) {
+  .container .col {
+    display: block;
   }
 }
 
@@ -551,7 +561,7 @@ div .col {
     width: 300px;
     height: 300px;
     border-radius: 7px;
-    margin: 30px 40px;
+    margin: 30px 27px;
   }
 }
 
@@ -560,9 +570,9 @@ div .col {
   color: white;
   padding: 5px;
   border-radius: 10px;
+  border-color: white;
   width: 80px;
-  display: block;
-  margin: 0 auto;
+  margin: 0px 20px;
 }
 @media (max-width: 576px) {
   #boton-enviar-personalizado {

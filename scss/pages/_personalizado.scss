@@ -5,9 +5,18 @@ h1{
     text-align: center;
     margin: 30px;
     @include mediaquery-mobile(){
-        font-size: 20px;
+        font-size: 15px;
         text-align: center;
 }
+}
+
+.container .col{
+    display: flex;
+    align-items: center;
+    @include mediaquery-mobile(){
+        display: block;
+}
+    
 }
 div .col{
     color: $color-texto;
@@ -28,7 +37,7 @@ div .col{
             width: 300px;
             height: 300px;
             border-radius: 7px;
-            margin: 30px 40px;
+            margin: 30px 27px;
             }
         }
 #boton-enviar-personalizado{
@@ -36,9 +45,9 @@ div .col{
     color: white;
     padding: 5px;
     border-radius: 10px;
+    border-color: white;
     width: 80px;
-    display: block;
-    margin: 0 auto;
+    margin: 0px 20px;
     @include mediaquery-mobile(){
         width: 65px;
         display: block;
