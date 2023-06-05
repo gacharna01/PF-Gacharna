@@ -9,7 +9,7 @@ h1{
 }
 }
 .contenedor-catalogo{
-    margin: 30px 78px;
+    
     @include mediaquery-mobile(){
         margin: 20px 60px;
     }
@@ -17,7 +17,7 @@ h1{
         width: 280px;
         height: 280px;
         border-radius: 25px;
-        margin: 30px 60px;
+        
         @include mediaquery-mobile(){
             width: 200px;
             height: 200px;
@@ -26,6 +26,11 @@ h1{
         }
     }
     
+}
+.contenedor-foto img{
+    display: flex;
+    justify-content: center;
+    margin: 0px 80px;
 }
 
 .item{

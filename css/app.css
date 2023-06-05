@@ -233,6 +233,10 @@ header nav .bolsa img {
   filter: brightness(0) saturate(100%) invert(94%) sepia(92%) saturate(1790%) hue-rotate(282deg) brightness(81%) contrast(94%);
 }
 
+.imgmenu {
+  background-color: lightcoral;
+}
+
 #btn-menu {
   display: none;
 }
@@ -448,9 +452,6 @@ h1 {
   }
 }
 
-.contenedor-catalogo {
-  margin: 30px 78px;
-}
 @media (max-width: 576px) {
   .contenedor-catalogo {
     margin: 20px 60px;
@@ -460,7 +461,6 @@ h1 {
   width: 280px;
   height: 280px;
   border-radius: 25px;
-  margin: 30px 60px;
 }
 @media (max-width: 576px) {
   .contenedor-catalogo img {
@@ -469,6 +469,12 @@ h1 {
     border-radius: 15px;
     margin: 30px 30px;
   }
+}
+
+.contenedor-foto img {
+  display: flex;
+  justify-content: center;
+  margin: 0px 80px;
 }
 
 .item p {
