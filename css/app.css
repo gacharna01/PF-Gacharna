@@ -480,6 +480,8 @@ h1 {
 
 .item p {
   color: #7D4961;
+  margin-top: 30px;
+  font-weight: bold;
 }
 .item span {
   color: #7D4961;
