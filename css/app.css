@@ -470,7 +470,7 @@ h1 {
 .contenedor-foto img {
   display: flex;
   justify-content: center;
-  margin: 0px 87px;
+  margin: 0px 84px;
 }
 @media (max-width: 576px) {
   .contenedor-foto img {
