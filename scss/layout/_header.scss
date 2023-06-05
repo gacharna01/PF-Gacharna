@@ -102,12 +102,11 @@ header{
         }
 
         }
-.imgmenu{
-    background-color: lightcoral;
-}
+
         
 #btn-menu{
     display: none;
+
 }
 
 .items-buscador-compra{
@@ -118,7 +117,7 @@ header{
     #btn-menu:checked ~ .menu{
         margin: 0;
         z-index: 3000;
-        
+        border-radius: 25px; 
     }
 }
 
